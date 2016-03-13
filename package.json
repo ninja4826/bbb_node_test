@@ -1,0 +1,23 @@
+{
+  "name": "node_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "debug": "gulp babel && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Russell Hueske <hueske.russ690@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babel-register": "^6.7.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  },
+  "dependencies": {
+    "bonescript": "^0.2.5"
+  }
+}
