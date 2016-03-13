@@ -18,6 +18,6 @@
     "gulp-babel": "^6.1.2"
   },
   "dependencies": {
-    "bonescript": "^0.2.5"
+    "octalbonescript": "^1.1.0"
   }
 }
